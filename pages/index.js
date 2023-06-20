@@ -5,7 +5,7 @@
 *  (including web sites) or distributed to other students.
 * 
 *  Name: Abdullah Student ID: 152158200 Date: ____________________
-*  Link: https://busy-erin-hen-veil.cyclic.app/
+*  Link: https://cloudy-teal-houndstooth.cyclic.app/
 *
 ********************************************************************************/ 
 
@@ -23,7 +23,7 @@ const Home = () => {
 
   const router = useRouter();
 
-  const { data, error } = useSWR(`https://cloudy-teal-houndstooth.cyclic.app/api/trips?page=${page}&perPage=10`);
+  const { data, error } = useSWR(`https://dull-puce-coypu-kilt.cyclic.app/api/trips?page=${page}&perPage=10`);
 
   useEffect(() => {
     if (data) {
