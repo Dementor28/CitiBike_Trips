@@ -31,7 +31,7 @@ const Trip = ({ trip }) => {
 };
 
 export async function getStaticPaths() {
-  const res = await fetch('https://busy-erin-hen-veil.cyclic.app/api/trips/?page=1&perPage=10');
+  const res = await fetch('https://cloudy-teal-houndstooth.cyclic.app/api/trips/?page=1&perPage=10');
   const data = await res.json();
 
   // Generate the paths using the _id values
@@ -45,7 +45,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps(context) {
   // Fetch the trip data based on the id parameter
-  const res = await fetch(`https://busy-erin-hen-veil.cyclic.app/api/trips/${context.params.id}`);
+  const res = await fetch(`https://cloudy-teal-houndstooth.cyclic.app/api/trips/${context.params.id}`);
   const trip = await res.json();
 
   return {

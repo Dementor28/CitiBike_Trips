@@ -23,7 +23,7 @@ const Home = () => {
 
   const router = useRouter();
 
-  const { data, error } = useSWR(`https://busy-erin-hen-veil.cyclic.app/api/trips?page=${page}&perPage=10`);
+  const { data, error } = useSWR(`https://cloudy-teal-houndstooth.cyclic.app/api/trips?page=${page}&perPage=10`);
 
   useEffect(() => {
     if (data) {
