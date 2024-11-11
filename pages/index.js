@@ -1,14 +1,3 @@
-/*********************************************************************************
-*  WEB422 – Assignment 3
-*  I declare that this assignment is my own work in accordance with Seneca Academic Policy.  
-*  No part of this assignment has been copied manually or electronically from any other source
-*  (including web sites) or distributed to other students.
-* 
-*  Name: Abdullah Student ID: 152158200 Date: ____________________
-*  Link: https://dull-puce-coypu-kilt.cyclic.app/
-*
-********************************************************************************/ 
-
 import { useState, useEffect } from 'react';
 import { Pagination, Table } from 'react-bootstrap';
 import useSWR from 'swr';
